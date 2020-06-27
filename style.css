@@ -43,10 +43,10 @@ form button{
     color: #fe9a9c;
     background: white;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
 }
+
 form button:hover{
     background: #fe9a9c;
     color: white;
@@ -109,6 +109,47 @@ form button:hover{
 .fall{
     transform: translateY(8rem);
     opacity: 0;
+}
 
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
 
 }
+.select{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;   
+}
+
+select{
+    color: white;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+    background: #fda099;
+    border-radius: 6px;
+}
+
+.select::after{
+
+    content: "\25BC";
+    position: absolute;
+    background:#fda099;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    border-top-right-radius: 6px;
+    transition: all 0.5s ease ;
+}
+
+.select:hover::after{
+    background: #fdb8b5;
+
+}
+
+
