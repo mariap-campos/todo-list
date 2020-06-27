@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, #0C122C, #1D2C67);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+
+}
+header{
+    font-size: 1.5rem;
+
+}
+header h1{
+    background-color: #1D2C67;
+    padding: 20px;
+    border-top-left-radius: 10px;
+}
+
+header, form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+}
+
+form button{
+    color: #fe9a9c;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    background: #fe9a9c;
+    color: white;
+
+}
