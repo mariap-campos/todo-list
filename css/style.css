@@ -161,4 +161,12 @@ select{
 
 }
 
+.aboutme-text{
+    background-color: #fdcb6e;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 4px;
+
+}
+
 
