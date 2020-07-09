@@ -5,20 +5,29 @@
 }
 
 body{
-    background-image: linear-gradient(120deg, #fdcb6e, #ffeaa7);
+    background-image: linear-gradient(120deg, #2d3436, #212425);
     color: white;
     font-family: 'Raleway', sans-serif;
     min-height: 100vh;
 
+}
+.container{
+    padding-top: 50px;
+}
+
+nav{
+    background-color: #f9f9f9;
 }
 header{
     font-size: 1.5rem;
 
 }
 header h1{
-    background-color: #1D2C67;
+    background-color: #fdcb6e;
     padding: 20px;
     border-top-left-radius: 10px;
+    color: #f9f9f9;
+    text-align: center;
 }
 
 header, form{
@@ -40,7 +49,7 @@ form input{
 }
 
 form button{
-    color: #fe9a9c;
+    color: #fdcb6e;
     background: white;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -48,7 +57,7 @@ form button{
 }
 
 form button:hover{
-    background: #fe9a9c;
+    background: #fdcb6e;
     color: white;
 }
 
@@ -80,7 +89,7 @@ form button:hover{
 }
 
 .trash-btn, .complete-btn{
-    background: #fe9a9c;
+    background: #d63031;
     color: white;
     border: none;
     padding: 1rem;
@@ -90,7 +99,7 @@ form button:hover{
 }
 
 .complete-btn{
-    background: #97d86f;
+    background: #00b894;
 }
 
 .todo-item{
@@ -130,7 +139,7 @@ select{
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
-    background: #fda099;
+    background: #fdcb6e;
     border-radius: 6px;
 }
 
@@ -138,7 +147,7 @@ select{
 
     content: "\25BC";
     position: absolute;
-    background:#fda099;
+    background:#fdcb6e;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -148,7 +157,7 @@ select{
 }
 
 .select:hover::after{
-    background: #fdb8b5;
+    background: #d6ab5b;
 
 }
 
