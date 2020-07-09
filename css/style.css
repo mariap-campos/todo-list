@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: linear-gradient(120deg, #0C122C, #1D2C67);
+    background-image: linear-gradient(120deg, #fdcb6e, #ffeaa7);
     color: white;
     font-family: 'Raleway', sans-serif;
     min-height: 100vh;
@@ -59,7 +59,7 @@ form button:hover{
 
 }
 .todo-list{
-    min-width: 30%;
+    min-width: 40%;
     list-style: none;
 
 }
@@ -107,7 +107,7 @@ form button:hover{
 }
 
 .fall{
-    transform: translateY(8rem);
+    transform: translateY(3rem);
     opacity: 0;
 }
 
